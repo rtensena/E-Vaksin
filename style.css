@@ -1,0 +1,28 @@
+.index-row {
+    position: relative;
+    background: url(img/index-bg1.png) no-repeat;
+    background-size: cover;
+    background-attachment: scroll, fixed;
+    min-height: calc(100vh - 4.5em);
+    background-position: center center;
+}
+
+.index-content {
+    background-color: none;
+    color: white;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], .form-select {
+    background: white;
+    color: black;
+    border: 2px solid #4267B2;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus {
+    outline: none;
+    border: none;
+    background: white;
+    color: black;
+}
